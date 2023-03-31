@@ -1,0 +1,4 @@
+<app-input (submitEvent)="addNote($event)"></app-input>
+<ng-container *ngFor="let note of notes">
+    <app-note (deleteEvent)="deleteNote($event)" [data]="note"></app-note>
+</ng-container>

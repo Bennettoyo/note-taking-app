@@ -1,0 +1,34 @@
+.note {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+    background: white;
+    border-radius: 5px;
+    word-wrap: break-word;
+
+    .date-text {
+        font-size: 10px;
+        color: gray;
+    }
+
+    button {
+        margin-top: 5px;
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        font-size: 11px;
+        /* font-weight: 600; */
+        border-radius: 8px;
+        padding: 1px 12px;
+        border: 1px solid #222222;
+        transition: box-shadow 0.2s ease 0s, transform 0.1s ease 0s;
+        background: #fff;
+        color: #222222;
+
+        :hover {
+            border-color: #000000;
+            background: #f7f7f7;
+        }
+    }
+}
